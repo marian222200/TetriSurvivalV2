@@ -74,7 +74,7 @@ I will explain for the first piece:
 
   <a></a>
   
-                                0 degrees:          90 degrees:         etc.
+                                 0 degrees:         90 degrees:         etc.
                                  0  1  2  3         12  8  4  0
                                  4  5  6  7         13  9  5  1
                                  8  9 10 11         14 10  6  2
