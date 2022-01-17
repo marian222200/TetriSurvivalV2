@@ -44,7 +44,7 @@ https://www.youtube.com/watch?v=IfsCczCO6Gw&ab_channel=MarianDimofte
 </details>
 
 
-##Additional information useful for understaning the code:
+## Additional information useful for understaning the code:
 
 <details>
 <summary>The player namer codification</summary>
