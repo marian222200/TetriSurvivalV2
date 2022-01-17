@@ -68,18 +68,26 @@ I will begin explaining all the codification by explaining how i stored the tetr
 types of tetromino pieces. The tetromino piece has a "mini map" of 4 x 4 and on that "mini map" it takes some solid blocks. The map is then translated
 row by row into an array and that array represents a tetromino piece in the array of types of tetromino pieces (aka the tetromino matrix).
 
+  <a></a>
+  
 I will explain for the first piece:
 
+  <a></a>
+  
                                 0 degrees:          90 degrees:         etc.
                                  0  1  2  3         12  8  4  0
                                  4  5  6  7         13  9  5  1
                                  8  9 10 11         14 10  6  2
                                 12 13 14 15         15 11  7  3
 
+  <a></a>
+  
 Imagine in the above image that the numbers 2, 6, 10 and 14 are bold. Than the first piece (the 4 blocks long bar) will have that "mini map". In the array
 that represents that bar only on thesee positions will be True value (meaning a solid block is there) and on the other positions will be False value
 (empty space). You do this for every piece and this is how you get the array of arrays (aka the array of tetromino pieces).
 
+  <a></a>
+  
 The image above helps me explain how I make the rotations and how from x and y and a rotation I get just one index.
 Let's start with the 0 degrees rotation (so we can ignore it for now). I can translate a position given by x and y into an index (like in the above image)
 so for example at x = 0 and y = 3 we have 8 = (y - 1) * tetrominoSize + x. So this is how I got the formula for that index. If we add the rotation into an account
@@ -89,6 +97,8 @@ than we have different formulas:
 -  180 degrees: tetrominoSize * tetrominoSize - 1 - (py * 4) - px
 -  270 degrees: tetrominoSize - 1  - py + (px * tetrominoSize)
 
+  <a></a>
+  
 So given a x, y and a rotation, and the tetromino vector we can say if at the x, y coordinates, on a certain piece that is rotated on 0, 90, 180 or 270 degrees if there is an empty block or a solid one
 
 </details>
