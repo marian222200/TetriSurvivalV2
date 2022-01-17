@@ -107,25 +107,45 @@ So given a x, y and a rotation, and the tetromino vector we can say if at the x,
 <summary>The states of the program</summary>
 <br>
 • title screen - 0
+  
 • main menu - 1
+  
 • start game - 2 (the number is never used because when you click "start game" you get redirected to enter player name, so it would have been an useless transition)
+  
     • enter player name - 20
+  
     • select difficulty - 21
+  
     • before playing - 22
+  
     • in game - 23
+  
     • "game over" screen - 24
+  
     • "level passed" screen - 25
+  
     • "-1 heart" screen - 26
+  
     • "you achived a highscore do you want to save highscore?" screen - 27
+  
 • settings - 3
+  
     • lcd contrast - 30
+  
     • lcd brightness - 31
+  
     • matrix brightness control - 32
+  
     • invert x axis - 33
+  
     • invert y axis - 34
+  
 • highscores - 4
+  
 • credits - 5
+  
 • help - 6
+  
 • back to title - 7
 </details>
 
@@ -156,12 +176,20 @@ For the joystick the principle is allmost the same, the only difference is that 
   <a></a>
   
 •    00 -> 03 | biggest highscore (unsigned long = 4 bytes)
+  
 •    04 -> 07 | second  highscore (-||-)
+  
 •    08 -> 11 | last highscore (-||-)
+  
 •    12 -> 35 | biggest highscore name (char[24] = 24 bytes)
+  
 •    36 -> 59 | second highscore name (-||-)
+  
 •    60 -> 83 | last highscore (-||-)
+  
 •    84 -> 84 | lcd contrast (1 byte)
+  
 •    85 -> 85 | lcd brightness (-||-)
+  
 •    86 -> 86 | matrix brightness (-||-)
 </details>
