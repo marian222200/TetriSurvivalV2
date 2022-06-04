@@ -34,7 +34,7 @@ Game has the following features, besides the gameplay:
   
 :heavy_check_mark: brightness settings
 
-- inverting x and y axis
+:heavy_check_mark: inverting x and y axis
 
 :heavy_check_mark: highscores saved in EEPROM
 
