@@ -28,19 +28,19 @@ This game has:
 <br>
 Game has the following features, besides the gameplay:
   
-• input player name
+:large_blue_circle: input player name
   
-• save your score
+:large_blue_circle: save your score
   
-• brightness settings
+:large_blue_circle: brightness settings
 
-• inverting x and y axis
+:large_blue_circle: inverting x and y axis
 
-• highscores saved in EEPROM
+:large_blue_circle: highscores saved in EEPROM
 
-• new players tips
+:large_blue_circle: new players tips
 
-• credits
+:large_blue_circle: credits
 </details>
 
 <details>
