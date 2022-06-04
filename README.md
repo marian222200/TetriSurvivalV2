@@ -112,11 +112,11 @@ So given a x, y and a rotation, and the tetromino vector we can say if at the x,
 <details>
 <summary>The states of the program</summary>
 <br>
-:heavy_check_mark: title screen - 0
+:small_blue_diamond: title screen - 0
   
-:heavy_check_mark: main menu - 1
+:small_blue_diamond: main menu - 1
   
-:heavy_check_mark: start game - 2 (the number is never used because when you click "start game" you get redirected to enter player name, so it would have been an useless transition)
+:small_blue_diamond: start game - 2 (the number is never used because when you click "start game" you get redirected to enter player name, so it would have been an useless transition)
   
     :small_blue_diamond: enter player name - 20
   
@@ -134,7 +134,7 @@ So given a x, y and a rotation, and the tetromino vector we can say if at the x,
   
     :small_blue_diamond: "you achived a highscore do you want to save highscore?" screen - 27
   
-:heavy_check_mark: settings - 3
+:small_blue_diamond: settings - 3
   
     :small_blue_diamond: lcd contrast - 30
   
@@ -146,13 +146,13 @@ So given a x, y and a rotation, and the tetromino vector we can say if at the x,
   
     :small_blue_diamond: invert y axis - 34
   
-:heavy_check_mark: highscores - 4
+:small_blue_diamond: highscores - 4
   
-:heavy_check_mark: credits - 5
+:small_blue_diamond: credits - 5
   
-:heavy_check_mark: help - 6
+:small_blue_diamond: help - 6
   
-:heavy_check_mark: back to title - 7
+:small_blue_diamond: back to title - 7
 </details>
 
 <details>
