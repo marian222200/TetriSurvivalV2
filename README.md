@@ -28,19 +28,19 @@ This game has:
 <br>
 Game has the following features, besides the gameplay:
   
-:large_blue_circle: input player name
+:heavy_check_mark: input player name
   
-:large_blue_circle: save your score
+:heavy_check_mark: save your score
   
-:large_blue_circle: brightness settings
+:heavy_check_mark: brightness settings
 
-:large_blue_circle: inverting x and y axis
+:heavy_check_mark: inverting x and y axis
 
-:large_blue_circle: highscores saved in EEPROM
+:heavy_check_mark: highscores saved in EEPROM
 
-:large_blue_circle: new players tips
+:heavy_check_mark: new players tips
 
-:large_blue_circle: credits
+:heavy_check_mark: credits
 </details>
 
 <details>
@@ -112,47 +112,47 @@ So given a x, y and a rotation, and the tetromino vector we can say if at the x,
 <details>
 <summary>The states of the program</summary>
 <br>
-• title screen - 0
+:heavy_check_mark: title screen - 0
   
-• main menu - 1
+:heavy_check_mark: main menu - 1
   
-• start game - 2 (the number is never used because when you click "start game" you get redirected to enter player name, so it would have been an useless transition)
+:heavy_check_mark: start game - 2 (the number is never used because when you click "start game" you get redirected to enter player name, so it would have been an useless transition)
   
-    • enter player name - 20
+    :small_blue_diamond: enter player name - 20
   
-    • select difficulty - 21
+    :small_blue_diamond: select difficulty - 21
   
-    • before playing - 22
+    :small_blue_diamond: before playing - 22
   
-    • in game - 23
+    :small_blue_diamond: in game - 23
   
-    • "game over" screen - 24
+    :small_blue_diamond: "game over" screen - 24
   
-    • "level passed" screen - 25
+    :small_blue_diamond: "level passed" screen - 25
   
-    • "-1 heart" screen - 26
+    :small_blue_diamond: "-1 heart" screen - 26
   
-    • "you achived a highscore do you want to save highscore?" screen - 27
+    :small_blue_diamond: "you achived a highscore do you want to save highscore?" screen - 27
   
-• settings - 3
+:heavy_check_mark: settings - 3
   
-    • lcd contrast - 30
+    :small_blue_diamond: lcd contrast - 30
   
-    • lcd brightness - 31
+    :small_blue_diamond: lcd brightness - 31
   
-    • matrix brightness control - 32
+    :small_blue_diamond: matrix brightness control - 32
   
-    • invert x axis - 33
+    :small_blue_diamond: invert x axis - 33
   
-    • invert y axis - 34
+    :small_blue_diamond: invert y axis - 34
   
-• highscores - 4
+:heavy_check_mark: highscores - 4
   
-• credits - 5
+:heavy_check_mark: credits - 5
   
-• help - 6
+:heavy_check_mark: help - 6
   
-• back to title - 7
+:heavy_check_mark: back to title - 7
 </details>
 
 <details>
@@ -177,25 +177,25 @@ For the joystick the principle is allmost the same, the only difference is that 
 <details>
 <summary>EEPROM mapping</summary>
 <br>
-•     address - byte number | stored data
+:small_blue_diamond:     address - byte number | stored data
   
   <a></a>
   
-•    00 -> 03 | biggest highscore (unsigned long = 4 bytes)
+:small_blue_diamond:    00 -> 03 | biggest highscore (unsigned long = 4 bytes)
   
-•    04 -> 07 | second  highscore (-||-)
+:small_blue_diamond:    04 -> 07 | second  highscore (-||-)
   
-•    08 -> 11 | last highscore (-||-)
+:small_blue_diamond:    08 -> 11 | last highscore (-||-)
   
-•    12 -> 35 | biggest highscore name (char[24] = 24 bytes)
+:small_blue_diamond:    12 -> 35 | biggest highscore name (char[24] = 24 bytes)
   
-•    36 -> 59 | second highscore name (-||-)
+:small_blue_diamond:    36 -> 59 | second highscore name (-||-)
   
-•    60 -> 83 | last highscore (-||-)
+:small_blue_diamond:    60 -> 83 | last highscore (-||-)
   
-•    84 -> 84 | lcd contrast (1 byte)
+:small_blue_diamond:    84 -> 84 | lcd contrast (1 byte)
   
-•    85 -> 85 | lcd brightness (-||-)
+:small_blue_diamond:    85 -> 85 | lcd brightness (-||-)
   
-•    86 -> 86 | matrix brightness (-||-)
+:small_blue_diamond:    86 -> 86 | matrix brightness (-||-)
 </details>
