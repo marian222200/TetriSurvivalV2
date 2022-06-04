@@ -18,9 +18,9 @@ This game has:
   
 :heavy_check_mark: 3 difficulties
   
-• multiple levels, each harder than the last one
+:heavy_check_mark: multiple levels, each harder than the last one
   
-• points gained by taking risks: you get more points for completing more lines at the same time.
+:heavy_check_mark: points gained by taking risks: you get more points for completing more lines at the same time.
 </details>
 
 <details>
