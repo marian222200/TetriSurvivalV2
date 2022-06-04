@@ -47,7 +47,6 @@ Game has the following features, besides the gameplay:
 <summary>Link to trailer</summary>
 <br>
 https://www.youtube.com/watch?v=IfsCczCO6Gw&ab_channel=MarianDimofte
-[YouTube Video](https://www.youtube.com/watch?v=IfsCczCO6Gw&ab_channel=MarianDimofte "Project Trailer")
 </details>
 
 
@@ -58,10 +57,11 @@ https://www.youtube.com/watch?v=IfsCczCO6Gw&ab_channel=MarianDimofte
 <br>
 I store the player name in an array of type byte. Each letter in the array can be translated into a char using the vector myAlphabet as follows:
 myAlphabet[playerName[index]] = decoded letter (char). Everywhere I decode the name I must use the function "pgm_read_byte" because I stored the
-myAlphabet array in progamabile memory using PROGMEM. For additional information see: [progmem](https://www.arduino.cc/reference/en/language/variables/utilities/progmem/ "Arduino Reference - Progmem")
+myAlphabet array in progamabile memory using PROGMEM. For additional information see: https://www.arduino.cc/reference/en/language/variables/utilities/progmem/
+  
   <a></a>
   
-In addition in my coddification the "$" represents the tail of the name, (you can kinda say that strlen(playerName) = the position of the "$" but it isn't correct
+In addition in my coddification the $ represents the tail of the name, (you can kinda say that strlen(playerName) = the position of the symbol but it isn't correct
 because playerName is an array of bytes). I also use $ when the user adds/removes one letter. When you add another letter (at the end), by default it is 
 set to be the void one ($) and you can change it after. Only the last letter can be set to be void by the user and if you do it and move your cursor from there,
 the letter gets deleted (this is how the user shortens his name).
