@@ -118,33 +118,33 @@ So given a x, y and a rotation, and the tetromino vector we can say if at the x,
   
 :small_blue_diamond: start game - 2 (the number is never used because when you click "start game" you get redirected to enter player name, so it would have been an useless transition)
   
-    :small_blue_diamond: enter player name - 20
+     enter player name - 20
   
-    :small_blue_diamond: select difficulty - 21
+     select difficulty - 21
   
-    :small_blue_diamond: before playing - 22
+     before playing - 22
   
-    :small_blue_diamond: in game - 23
+     in game - 23
   
-    :small_blue_diamond: "game over" screen - 24
+     "game over" screen - 24
   
-    :small_blue_diamond: "level passed" screen - 25
+     "level passed" screen - 25
   
-    :small_blue_diamond: "-1 heart" screen - 26
+     "-1 heart" screen - 26
   
-    :small_blue_diamond: "you achived a highscore do you want to save highscore?" screen - 27
+     "you achived a highscore do you want to save highscore?" screen - 27
   
 :small_blue_diamond: settings - 3
   
-    :small_blue_diamond: lcd contrast - 30
+     lcd contrast - 30
   
-    :small_blue_diamond: lcd brightness - 31
+     lcd brightness - 31
   
-    :small_blue_diamond: matrix brightness control - 32
+     matrix brightness control - 32
   
-    :small_blue_diamond: invert x axis - 33
+     invert x axis - 33
   
-    :small_blue_diamond: invert y axis - 34
+     invert y axis - 34
   
 :small_blue_diamond: highscores - 4
   
