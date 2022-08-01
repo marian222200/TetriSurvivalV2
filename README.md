@@ -13,7 +13,7 @@ A Tetris-like game made using an Arduino board, a led matrix, a lcd and a joysti
 <details>
 <summary>Game features</summary>
 <br>
-The purpose of the game is to accumulate as many points as you can while you survive as many levels as posible. Each level has a duration that you have to survive. If you lose a level you lose one heart. You lose the game if you have no hearts left.
+The purpose of the game is to accumulate as many points as you can while you survive as many levels as posible. Each level has a duration that you have to survive. If you lose a level you lose one heart. You lose the game if you have no hearts left. 
 This game has:
   
 :heavy_check_mark: 3 difficulties
