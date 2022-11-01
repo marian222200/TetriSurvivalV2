@@ -1,6 +1,6 @@
 # TetriSurvival
 
-A Tetris-like game made using an Arduino board, a led matrix, a lcd and a joystick.
+A Tetris-like game made using an Arduino board, a led matrix, a lcd and a joystick. Programmed in C programming language.
 
 
 ![147242427-0460abba-9f7e-4c8b-aaa5-0e18c946136d](https://user-images.githubusercontent.com/30511514/159129623-e78f2380-0e64-41e8-96e8-8a01dccbbd21.jpeg)
